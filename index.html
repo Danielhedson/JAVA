@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com Botão</title>
+</head>
+<body>
+    
+    <h1>Daniel Hédson da Câmara</h1>
+
+    <p>Me chamo Daniel Hédson da Câmara, tenho 24 anos, sou natural de Alto do Rodrigues-RN, sou apaixonado por tecnologia e atualmente atuo na área de energias renováveis, contribuindo para um futuro mais sustentável.
+    <br><br>
+
+    <strong>  Hobbies:</strong><br>
+    -Jogar Videogame/Pc <br>
+    -Praticar atividade fisica, musculação <br>
+    -Assistir Animes.
+</p>
+
+<button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+
+<div id="mensagem"></div>
+
+<script>
+    function mostrarMensagem() {
+        const mensagem ="Nunca deixe ninguém te dizer que não pode fazer alguma coisa. Se você tem um sonho, tem que correr atrás dele. As pessoas não conseguem vencer e dizem que você também não vai vencer. Se você quer uma coisa, corra atrás.À Procura da Felicidade!";
+        document.getElementById("mensagem").textContent = mensagem;
+}
+
+</script>
+
+</body>
+</html>
